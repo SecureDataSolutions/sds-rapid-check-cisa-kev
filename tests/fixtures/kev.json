@@ -1,0 +1,13 @@
+{
+  "catalogVersion": "fixture-1",
+  "vulnerabilities": [
+    {
+      "dateAdded": "2026-12-23",
+      "cveID": "CVE-FIXTURE-0001",
+      "vendorProject": "Fixture Vendor",
+      "product": "Fixture Product",
+      "dueDate": "2026-12-01",
+      "requiredAction": "Apply the vendor update."
+    }
+  ]
+}
