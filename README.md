@@ -20,10 +20,9 @@ Change the vendor words and look-back window as needed. The default window cover
 
 ### Offline
 
-Download the JSON catalog to your computer, then pass its path with `--file`. The check reads that file without making network requests.
+While online, save the [CISA KEV JSON catalog](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json) as `kev.json` on local disk. Once offline, run the check against that copy.
 
 ```sh
-curl -fL 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json' -o kev.json &&
 python3 -I -B -S kev_check.py --file kev.json --days 7 --vendors cisco vmware
 ```
 
@@ -41,10 +40,9 @@ Change the vendor words and look-back window as needed. The default window cover
 
 ### Offline
 
-Download the JSON catalog to your computer, then pass its path with `--file`. The check reads that file without making network requests.
+While online, save the [CISA KEV JSON catalog](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json) as `kev.json` on local disk. Once offline, run the check against that copy.
 
 ```sh
-curl -fL 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json' -o kev.json &&
 python3 -I -B -S kev_check.py --file kev.json --days 7 --vendors cisco vmware
 ```
 
