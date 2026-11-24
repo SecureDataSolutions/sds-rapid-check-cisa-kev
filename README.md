@@ -2,6 +2,15 @@
 
 Lists recent CISA Known Exploited Vulnerabilities and highlights vendor or product names you specify.
 
+## About
+
+**Secure Data Solutions (SDS)**, https://sdsitgroup.com  
+The engineers other security teams call when it has to work.
+
+We build free tools like this for cyber defenders. Our programs cover threat exposure, defensible security, and validated resilience: we find what attackers can reach, shut it down, and prove it holds.
+
+Ran this and found something, or not sure what you're looking at? Drop us a line at https://sdsitgroup.com. We're happy to talk it through, and when it's urgent, we pick up.
+
 Read the script first. [kev_check.py](kev_check.py)
 
 Requires Python 3.8 or later.
