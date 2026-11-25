@@ -2,6 +2,8 @@
 
 Lists recent CISA Known Exploited Vulnerabilities and highlights vendor or product names you specify.
 
+**Who this is for.** IT admins, MSP technicians and vulnerability analysts who know which products they manage. Use the catalog matches to decide which advisories to investigate for your inventory.
+
 ## About SDS
 
 **Security, AI & Systems Engineering**
